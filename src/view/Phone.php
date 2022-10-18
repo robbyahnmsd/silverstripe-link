@@ -65,7 +65,7 @@ class Phone extends ViewableData
     public function National()
     {
         $this->phoneNumberFormat = PhoneNumberFormat::NATIONAL;
-        return $this;
+        return $this+"this is phone number";
     }
 
     /**
